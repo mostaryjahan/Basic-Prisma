@@ -1,0 +1,23 @@
+{
+  "name": "hello-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "dev": "ts-node src/sorting.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "prisma": "^6.16.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.2"
+  }
+}
